@@ -1,0 +1,320 @@
+cmd         cd Current Location Address            
+git clone https://github.com/sandeepmohamed666/DSAB9.git
+code .   
+Ctrl + `
+
+python -m venv D:\Home-ICTAK\Auto-mpg-Reloaded\.venv 
+python -m venv .venv
+
+.venv\Scripts\Activate.ps1                (.\.venv\scripts\activate.ps1)
+
+get-executionpolicy   
+set-executionpolicy              
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+pip freeze > requirements.txt                         
+
+git config --global user.name  "sandeepmohamed666"     
+git config --global user.email  "sandeepmohamed666@gmail.com"
+
+git config --global --replace-all user.name "sandeepmohamed666"
+git config --global --replace-all user.email "sandeepmohamed666@gmail.com"
+
+git config --global user.name                          
+git config --global user.email  -----> (Verify current configuration:)
+git config --global --list 
+
+git init
+git add *
+git commit -m "04-06-2026 05:16"
+git remote add origin https://github.com/sandeepmohamed666/ClimateGuardAI.git
+git remote set-url origin https://github.com/sandeepmohamed666/ClimateGuardAI.git
+
+git branch -M develop
+git push -u -f origin develop
+
+git pull --rebase origin main
+
+git --version
+git remote -v             
+git branch
+git status  (COMMITING)
+git config --list
+git log
+
+
+python.exe -m pip install --upgrade pip    (Upgrade pip)
+pip --version
+pip install -r requirements.txt
+pip list
+
+
+python --version
+py --version
+python
+
+
+pip install pandas
+pip show pandas
+pandas --version
+
+
+git add -f D:\ClimateGuardAI\runtime.txt
+git commit -m "deployment"  
+git push origin develop 
+
+git add .
+git commit -m "Deployment"  
+git push origin develop 
+
+hello 
+Recommended:
+============
+git checkout develop
+git status
+
+
+Ensure:
+working tree clean
+
+Then:
+======
+git checkout main 
+git pull origin main
+git merge develop
+git push origin main
+
+
+uvicorn backend.main:app --reload 
+http://127.0.0.1:8000/docs
+
+uvicorn main:app --host 0.0.0.0 --port $PORT
+
+
+cd D:\ClimateGuardAI\backend
+python -m uvicorn main:app --reload
+
+
+
+
+Here is the transliteration (Hinglish) of the famous song lyrics so you can easily read the Hindi words in the English alphabet:
+
+Dheena dhin dha
+Dheena dhin dha
+Dheena dhin dha
+Dheena dhin dha
+Ram pam pam ram pam
+Pam rampa paapam pam pam
+
+Aie jee o jee aie jee o jee lo jee suno jee
+Main hoon man maujee
+Karta hoon main jo wo tum bhee karo jee
+One two ka four, four two ka one
+My name is Lakhan
+My name is Lakhan
+Sajonon ka sajan
+Mera naam hai Lakhan
+
+Aie jee o jee lo jee suno jee
+Main hoon man maujee
+Karta hoon main jo wo tum bhee karo jee
+One two ka four, four two ka one
+My name is Lakhan
+My name is Lakhan
+Sajonon ka sajan
+Mera naam hai Lakhan
+
+Tak tunna
+Tak tunna tidheen tidheen
+Tak tunna tidheen tidheen
+
+Duniya chakori paisa hai chanda
+Sooli pe latka har ek banda
+Sabke gale mein
+Sabke gale mein maya ka fanda
+Maya ka fanda
+Seekho o yaaron inse
+Yeh dhanda inse yeh dhanda
+O…….o
+
+Do bol meethe bas bol ke
+Har maal becho kam tol ke
+Ho kam tol ke re baba kam tol ke
+Tum apni khaali jeben bharo jee
+Karta hoon main jo wo tum bhee karo jee
+One two ka four, four two ka one
+My name is Lakhan
+My name is Lakhan
+Sajonon ka sajan
+Mera naam hai Lakhan
+
+O….o….o
+Main kuchh na jaanoon isse zyaada
+Main kuchh na jaanoon isse zyaada
+Tu mera Mohan main teri Radha
+Jeevan nahi itna seedha saadha
+Kaise karoon tumse koi waada
+Waade jhoothe sacche ho tum
+Jaise bhee ho bade acche ho tum
+Bade acche ho tum
+
+Kehte ho sabse tum ho man maujee
+Man maujee ho to mauj karo jee
+One two ka four, four two ka one
+Sajonon ke sajan
+Karoon koi jatan
+Karoon koi jatan
+Jaldi ho milan
+
+Dheena dhin dha dheena dhin dha
+Dheena dhin dha dheena dhin dha
+
+Hmm kha pee raha hai
+Saara zamaana
+Jo bhookha pyaasa hai wo dewaana
+Hai wo dewaana
+Daulat ki jhoothi chamak pe na jaana
+Mehnat se roti rozi kamaana
+Rozi kamaana
+Hmm..oh…
+
+Kehna badon ka tum maan lo
+Accha bura kya yeh jaan lo
+Kya yeh jaan lo
+Kehta hoon main jo wo tum suno jee
+Maine suna nahi phir se kaho jee
+Nahi number to koi dono ho number ho one
+
+Mere Ram Lakhan jiyo Ram Lakhan
+Mere Ram Lakhan jiyo Ram Lakhan
+Sajonon ke sajan jiyo Ram Lakhan.
+
+
+
+ https://climateguardai-6.onrender.com
+https://climateguardai-y5zt.onrender.com
+
+
+https://climateguardai-2-4k51.onrender.com/docs
+
+ You need to change this in the file where your API base URL is defined. Based on your frontend structure, the most likely files are:
+
+frontend/src/services/api.js
+
+or
+
+frontend/src/utils/apiEndpoints.js
+
+Look for something like:
+
+const API_URL = "http://127.0.0.1:8000";
+
+or
+
+const BASE_URL = "http://localhost:8000";
+
+and change it to:
+
+const API_URL = "https://climateguardai-6.onrender.com";
+
+However, since you already have a .env file, the better approach is:
+
+.env
+VITE_API_BASE_URL=https://climateguardai-6.onrender.com
+
+
+
+
+
+https://climateguardai-8.onrender.com/docs
+
+
+
+3. Add a root endpoint
+
+Add this to main.py:
+
+@app.get("/")
+def home():
+    return {
+        "message": "Climate Guard AI API is running"
+    }
+
+
+
+
+# =====================================
+# ROOT ENDPOINT
+# =====================================
+
+@app.get("/")
+def home():
+    return {
+        "message": "Climate Guard AI API is running"
+    }
+
+# =====================================
+# CORS
+# =====================================
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+
+Your environments should be:
+
+Environment	                    Frontend URL	                      Backend URL
+Local development	      http://localhost:5173	                http://localhost:5000
+Production	      https://climate-guard-ai.vercel.app 	https://climateguardai-2-4k51.onrender.com
+
+
+
+
+
+
+
+Access variables in FastAPI
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+PORT = os.getenv("PORT", 5000)
+FRONTEND_URL = os.getenv("FRONTEND_URL")
+
+Install the package if needed:
+
+pip install python-dotenv
+For your current Climate Guard AI project
+
+If your backend does not use API keys, database URLs, or secrets, you may not need a .env file at all. Many ML-based FastAPI projects run perfectly without one.
+
+Typical things that belong in a backend .env are:
+
+API keys
+Database URLs
+Secret keys
+Allowed frontend URLs
+Environment settings
+Model paths
+
+Model files (.pkl) and ordinary code settings usually do not need to be stored in .env.
+
+
+
+temperature_celsius
+humidity
+precip_mm
+pressure_mb
+air_quality_PM2_5
+air_quality_PM10
+visibility_km
+uv_index
+wind_kph
+cloud
