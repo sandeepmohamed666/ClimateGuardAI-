@@ -1,5 +1,5 @@
 cmd         cd Current Location Address            
-git clone https://github.com/sandeepmohamed666/DSAB9.git
+git clone https://github.com/sandeepmohamed666/ClimateGuardAI-.git
 code .   
 Ctrl + `
 
@@ -27,8 +27,8 @@ git config --global --list
 git init
 git add *
 git commit -m "04-06-2026 05:16"
-git remote add origin https://github.com/sandeepmohamed666/ClimateGuardAI.git
-git remote set-url origin https://github.com/sandeepmohamed666/ClimateGuardAI.git
+git remote add origin https://github.com/sandeepmohamed666/ClimateGuardAI-.git
+git remote set-url origin https://github.com/sandeepmohamed666/ClimateGuardAI-.git
 
 git branch -M develop
 git push -u -f origin develop
