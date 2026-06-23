@@ -8,7 +8,7 @@ def get_coordinates(city: str):
 
     params = {
         "name": city,
-        "count": 1,
+        "count": 10,
         "language": "en",
         "format": "json"
     }
@@ -26,10 +26,19 @@ def get_coordinates(city: str):
             f"City not found: {city}"
         )
 
-    result = data["results"][0]
+    for result in data["results"]:
 
-    return {
-        "latitude": result["latitude"],
-        "longitude": result["longitude"],
-        "name": result["name"]
-    }
+        country = result.get("country", "")
+
+        if country.lower() == "india":
+
+            return {
+                "latitude": result["latitude"],
+                "longitude": result["longitude"],
+                "name": result["name"],
+                "country": country
+            }
+
+    raise ValueError(
+        f"No Indian city found for {city}"
+    )
